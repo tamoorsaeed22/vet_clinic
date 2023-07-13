@@ -67,7 +67,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- SQL
+- **Create tables in SQL**
+- **Insert and query data in SQL.**
+- **Use database transactions.**
+- **Modify and delete data in SQL.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,10 +171,10 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
+-  **query multiple tables**
+-  **add "join table" for visits.**
+-  **database performance audit.**
+-  **add database schema diagram.**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
