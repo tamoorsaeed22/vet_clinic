@@ -112,7 +112,7 @@ Install this project with:
 
 
 ```sh
-  cd metrics-webapp
+  cd vet_clinic
   npm install
 ```
 
@@ -168,7 +168,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add hourly Temperature Graphs]**
+- [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
