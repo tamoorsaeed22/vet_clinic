@@ -16,7 +16,7 @@ COLUMN species VARCHAR(50);
 
 CREATE TABLE owners (
     id SERIAL PRIMARY KEY NOT NULL,
-    full_name VARCHAR(300);
+    full_name VARCHAR(300),
     age INTEGER
 );
 -- creating species table
@@ -34,4 +34,4 @@ ALTER TABLE animals DROP COLUMN species;
  ALTER TABLE animals ADD COLUMN species_id INTEGER REFERENCES species(id);
  -- Add column owner_id which is a foreign key referencing owners table
 
-ALTER TABLE animals ADD COLUMN owneer_id BIGINT REFERENCES owners(id); 
+ALTER TABLE animals ADD COLUMN owner_id BIGINT REFERENCES owners(id); 
