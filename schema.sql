@@ -59,5 +59,3 @@ CREATE TABLE visits (
     vet_id INTEGER REFERENCES vets (id),
     date_of_visit DATE
 );
-
-
