@@ -152,4 +152,4 @@ JOIN owners ON owners.id = animals.owner_id WHERE owners.full_name = 'Dean Winch
 -- Who owns the most animals ?
 
 SELECT O.full_name AS OWNER, COUNT(a.name) AS TOTAL_ANIMALS FROM owners AS O LEFT JOIN animals AS A
-ON A.owner_id = O.id GROUP BY O.full_name ORDER BY COUNT(A.name) DESC LIMIT 1;
+ON A.owner_id = O.id GROUP BY O.full_name ORDER BY COUNT(A.name) DESC LIMIT 1; 
