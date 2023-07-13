@@ -36,7 +36,6 @@
 
 # 📖 [Vet_Clinic] <a name="about-project"></a>
 A Vet Clinic Database built using PostgreSQL is a comprehensive system that stores and manages essential information related to veterinary clinics. It includes features such as patient records, medical histories, appointments, treatments, and billing information, facilitating efficient management of veterinary services. With the power of PostgreSQL, the database provides a reliable and scalable solution for organizing and retrieving critical data in a veterinary clinic setting.
-
 ## 🛠 Built With <a name="built-with"></a>
 . PostgreSQL
 
