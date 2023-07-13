@@ -35,3 +35,29 @@ ALTER TABLE animals DROP COLUMN species;
  -- Add column owner_id which is a foreign key referencing owners table
 
 ALTER TABLE animals ADD COLUMN owner_id BIGINT REFERENCES owners(id); 
+-- Creating a table named vets
+
+CREATE TABLE vets (
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(100),
+    age INTEGER,
+    date_of_graduation DATE
+);
+-- creating table named specializations
+
+CREATE TABLE specializations (
+    vet_id INTEGER,
+    species_id INTEGER,
+    FOREIGN KEY (vet_id) REFERENCES vets (id),
+    FOREIGN KEY (species_id) REFERENCES species (id)
+);
+--Add a unique constraint to the "id" column in the "animals" table:
+ALTER TABLE animals ADD CONSTRAINT animals_id_unique UNIQUE (id);
+-- creating a table named visits
+CREATE TABLE visits (
+    animal_id INTEGER REFERENCES animals (id) UNIQUE,
+    vet_id INTEGER REFERENCES vets (id),
+    date_of_visit DATE
+);
+
+
